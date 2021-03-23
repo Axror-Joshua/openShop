@@ -52,7 +52,7 @@
     <header class="header">
       <nav class="navbar">
         <div class="container">
-          <div class="header-navbar__search w-100">
+          <div class="header-navbar__search">
             <a href="../index.html" class="navbar__logo">
               O
               <span> <img src="../images/header-logo.svg" alt="" /> </span>EN
@@ -70,7 +70,7 @@
             </label>
           </div>
     
-          <div class="header-navbar__content w-100">
+          <div class="header-navbar__content">
             <ul class="header-navbar__list">
               <li class="navbar__list--item">
                 <a class="navbar__list--link" href="cellphones.html">Cell Phones & Tablets</a>
@@ -437,36 +437,40 @@
     <!-- !MAIN-->
     <section class="iphone12">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-1">
-            <div class="iphone__tabs nav" id="myTabs">
-              <a href="#example1" data-bs-toggle="tab" class="active">
-                <img src="../images/iphone12-page/productExample-1.png" alt="">
-              </a>
-              <a href="#example2" data-bs-toggle="tab">
-                <img src="../images/iphone12-page/productExample-2.jpg" alt="">
-              </a>
-              <a href="#example3" data-bs-toggle="tab">
-                <img src="../images/iphone12-page/productExample-3.png" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 mx-5">
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="example1">
-                <img src="../images/iphone12-page/main-product1.png" alt="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-5 col-10">
+            <div class="row  d-flex justify-content-center">
+              <div class="col-2">
+                <div class="iphone__tabs nav" id="myTabs">
+                  <a href="#example1" data-bs-toggle="tab" class="active">
+                    <img src="../images/iphone12-page/productExample-1.png" alt="">
+                  </a>
+                  <a href="#example2" data-bs-toggle="tab">
+                    <img src="../images/iphone12-page/productExample-2.jpg" alt="">
+                  </a>
+                  <a href="#example3" data-bs-toggle="tab">
+                    <img src="../images/iphone12-page/productExample-3.png" alt="">
+                  </a>
+                </div>
               </div>
-              <div class="tab-pane fade show" id="example2">
-                <img src="../images/iphone12-page/productExample-2.jpg" alt="">
-              </div>
-              <div class="tab-pane fade show" id="example3">
-                <img src="../images/iphone12-page/productExample-3.png" alt="">
+  
+              <div class="col-md-8 col-7 mx-md-4 ms-2">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="example1">
+                    <img src="../images/iphone12-page/main-product1.png" alt="">
+                  </div>
+                  <div class="tab-pane fade show" id="example2">
+                    <img src="../images/iphone12-page/productExample-2.jpg" alt="">
+                  </div>
+                  <div class="tab-pane fade show" id="example3">
+                    <img src="../images/iphone12-page/productExample-3.png" alt="">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-7">
+          <div class="col-lg-7 col-10">
             <div class="iphone12__info">
               <h1>
                 Apple iPhone 12 Pro Max 128GB (Gray)
@@ -497,14 +501,35 @@
       </div>
     </section>
 
+    <section class="ps-vr">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12">
+            <div class="ps-vr__img">
+              <img src="../images/ps-vr.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <div class="ps-vr__info">
+              <h1>Plastation VR</h1>
+
+              <p>Over 500 games and experiences and counting. See them all</p>
+
+              <a href="#!" class="learn__btn">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- !MAIN END -->
 
     <!-- !FOOTER-->
     <footer class="footer">
       <div class="container">
-        <div class="footer__content d-flex align-items-center w-100">
-          <a href="#!" class="footer__logo">
+        <div class="footer__content d-flex align-items-center">
+          <a href="../index.html" class="footer__logo">
             O
             <span> <img src="../images/footer-logo.svg" alt="" /> </span>EN
             SHOP
@@ -531,7 +556,7 @@
           </ul>
         </div>
     
-        <div class="footer__info w-100">
+        <div class="footer__info">
           <ul class="footer__info-list">
             <a href="#!" class="footer__info-link">News</a>
             <a href="#!" class="footer__info-link">Help</a>
